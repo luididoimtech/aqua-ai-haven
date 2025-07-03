@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +62,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Aquarium-specific colors
+				ocean: {
+					deep: 'hsl(var(--ocean-deep))',
+					medium: 'hsl(var(--ocean-medium))',
+					light: 'hsl(var(--ocean-light))'
+				},
+				coral: {
+					warm: 'hsl(var(--coral-warm))',
+					light: 'hsl(var(--coral-light))'
+				},
+				seaweed: 'hsl(var(--seaweed))',
+				sand: 'hsl(var(--sand))'
+			},
+			backgroundImage: {
+				'gradient-ocean': 'var(--gradient-ocean)',
+				'gradient-coral': 'var(--gradient-coral)',
+				'gradient-aqua': 'var(--gradient-aqua)'
+			},
+			boxShadow: {
+				'ocean': 'var(--shadow-ocean)',
+				'soft': 'var(--shadow-soft)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
